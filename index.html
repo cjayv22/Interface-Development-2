@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fruit Search Registration Form</title>
+</head>
+<body>
+    
+  <h1>Fruit Registration Form</h1>
+  <form name="registerform" onsubmit=" validateForm(); return false;" method="post">
+    <h2><b>Username</b></h2>
+    <input type="text" id="username" name="username"><br>
+
+    <h2><b>Email</b></h2>
+    <input type="email" id="email" name="email"><br>
+
+    <h2><b>Password</b></h2>
+    <input type="password" id="password" name="password"><br>
+
+    <input type="submit" value="Register">
+  </form>
+
+  <h2>Search for Fruit Products</h2>
+  <p>Listed: Apples, Oranges, Mangoes, Limes, Coconuts, Tangerines, Bananas, Lemons, Dragon fruits, kiwis</p>
+  <input id="searchInput" type="text" placeholder="Search...">
+<ul id="productList"></ul>
+
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
+
+
